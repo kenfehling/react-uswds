@@ -32,7 +32,7 @@ export const ProcessListHeading = ({
   ...headingProps
 }:
   | ProcessListParagraphHeadingProps
-  | ProcessListHeadingProps): React.ReactElement => {
+  | ProcessListHeadingProps): JSX.Element => {
   const classes = classnames('usa-process-list__heading', className)
   const Tag = type
   return (

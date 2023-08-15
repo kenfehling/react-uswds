@@ -10,7 +10,7 @@ export const ModalFooter = ({
   children,
   className,
   ...divProps
-}: ModalFooterProps & JSX.IntrinsicElements['div']): React.ReactElement => {
+}: ModalFooterProps & JSX.IntrinsicElements['div']): JSX.Element => {
   const classes = classnames('usa-modal__footer', className)
 
   return (

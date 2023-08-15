@@ -26,7 +26,7 @@ export const YearPicker = ({
   maxDate,
   handleSelectYear,
   setStatuses,
-}: YearPickerProps): React.ReactElement => {
+}: YearPickerProps): JSX.Element => {
   const prevYearChunkEl = useRef<HTMLButtonElement>(null)
   const nextYearChunkEl = useRef<HTMLButtonElement>(null)
   const focusedYearEl = useRef<HTMLButtonElement>(null)

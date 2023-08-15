@@ -10,7 +10,7 @@ export const ModalCloseButton = ({
   handleClose,
   ...buttonProps
 }: ModalCloseButtonProps &
-  JSX.IntrinsicElements['button']): React.ReactElement => {
+  JSX.IntrinsicElements['button']): JSX.Element => {
   return (
     <Button
       aria-label="Close this window"

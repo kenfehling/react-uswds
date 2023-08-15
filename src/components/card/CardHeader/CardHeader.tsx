@@ -8,7 +8,7 @@ export const CardHeader = ({
   ...headerProps
 }: {
   exdent?: boolean
-} & JSX.IntrinsicElements['header']): React.ReactElement => {
+} & JSX.IntrinsicElements['header']): JSX.Element => {
   const classes = classnames(
     'usa-card__header',
     {

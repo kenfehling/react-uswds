@@ -9,7 +9,7 @@ export const Title = ({
   className,
   children,
   ...divProps
-}: TitleProps & JSX.IntrinsicElements['div']): React.ReactElement => {
+}: TitleProps & JSX.IntrinsicElements['div']): JSX.Element => {
   const classes = classnames('usa-logo', className)
 
   return (

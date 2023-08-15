@@ -21,24 +21,24 @@ const sampleLocalization = {
   buttonText: 'Buscar',
 }
 
-export const defaultSearchButton = (): React.ReactElement => <SearchButton />
+export const defaultSearchButton = (): JSX.Element => <SearchButton />
 
-export const bigSearchButton = (): React.ReactElement => (
+export const bigSearchButton = (): JSX.Element => (
   <SearchButton size="big" />
 )
 
-export const smallSearch = (): React.ReactElement => (
+export const smallSearch = (): JSX.Element => (
   <SearchButton size="small" />
 )
 
-export const defaultSpanishSearchButton = (): React.ReactElement => (
+export const defaultSpanishSearchButton = (): JSX.Element => (
   <SearchButton i18n={sampleLocalization} />
 )
 
-export const bigSpanishSearchButton = (): React.ReactElement => (
+export const bigSpanishSearchButton = (): JSX.Element => (
   <SearchButton size="big" i18n={sampleLocalization} />
 )
 
-export const smallSpanishSearch = (): React.ReactElement => (
+export const smallSpanishSearch = (): JSX.Element => (
   <SearchButton size="small" i18n={sampleLocalization} />
 )

@@ -60,53 +60,53 @@ Sandbox.args = {
   maxSlots: 7,
 }
 
-export const Default = (): React.ReactElement => (
+export const Default = (): JSX.Element => (
   <Pagination pathname={pathname} totalPages={10} currentPage={10} />
 )
 
-export const Unbounded = (): React.ReactElement => (
+export const Unbounded = (): JSX.Element => (
   <Pagination pathname={pathname} currentPage={10} />
 )
 
-export const ThreePagesFirst = (): React.ReactElement => (
+export const ThreePagesFirst = (): JSX.Element => (
   <Pagination pathname={pathname} totalPages={3} currentPage={1} />
 )
-export const ThreePages = (): React.ReactElement => (
+export const ThreePages = (): JSX.Element => (
   <Pagination pathname={pathname} totalPages={3} currentPage={2} />
 )
-export const ThreePagesLast = (): React.ReactElement => (
+export const ThreePagesLast = (): JSX.Element => (
   <Pagination pathname={pathname} totalPages={3} currentPage={3} />
 )
 
-export const SevenPages = (): React.ReactElement => (
+export const SevenPages = (): JSX.Element => (
   <Pagination pathname={pathname} totalPages={7} currentPage={4} />
 )
 
-export const EightPagesFirst = (): React.ReactElement => (
+export const EightPagesFirst = (): JSX.Element => (
   <Pagination pathname={pathname} totalPages={8} currentPage={1} />
 )
 
-export const EightPagesFour = (): React.ReactElement => (
+export const EightPagesFour = (): JSX.Element => (
   <Pagination pathname={pathname} totalPages={8} currentPage={4} />
 )
 
-export const EightPagesFive = (): React.ReactElement => (
+export const EightPagesFive = (): JSX.Element => (
   <Pagination pathname={pathname} totalPages={8} currentPage={5} />
 )
 
-export const EightPagesSix = (): React.ReactElement => (
+export const EightPagesSix = (): JSX.Element => (
   <Pagination pathname={pathname} totalPages={8} currentPage={6} />
 )
 
-export const EightPagesLast = (): React.ReactElement => (
+export const EightPagesLast = (): JSX.Element => (
   <Pagination pathname={pathname} totalPages={8} currentPage={8} />
 )
 
-export const NinePagesFive = (): React.ReactElement => (
+export const NinePagesFive = (): JSX.Element => (
   <Pagination pathname={pathname} totalPages={9} currentPage={5} />
 )
 
-export const TenSlots = (): React.ReactElement => (
+export const TenSlots = (): JSX.Element => (
   <Pagination
     pathname={pathname}
     totalPages={24}

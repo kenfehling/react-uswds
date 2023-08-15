@@ -28,7 +28,7 @@ export const Textarea = ({
   children,
   inputRef,
   ...inputProps
-}: TextareaProps & JSX.IntrinsicElements['textarea']): React.ReactElement => {
+}: TextareaProps & JSX.IntrinsicElements['textarea']): JSX.Element => {
   const classes = classnames(
     'usa-textarea',
     {

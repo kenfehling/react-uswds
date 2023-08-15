@@ -5,7 +5,7 @@ export const CollectionDescription = ({
   className,
   children,
   ...props
-}: JSX.IntrinsicElements['p']): React.ReactElement => {
+}: JSX.IntrinsicElements['p']): JSX.Element => {
   const classes = classname('usa-collection__description', className)
   return (
     <p className={classes} {...props}>

@@ -25,7 +25,7 @@ export const LanguageSelector = ({
   className,
   ...divProps
 }: LanguageSelectorProps &
-  JSX.IntrinsicElements['div']): React.ReactElement => {
+  JSX.IntrinsicElements['div']): JSX.Element => {
   const classes = classnames(
     'usa-language-container',
     {

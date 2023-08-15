@@ -10,7 +10,7 @@ export const ProcessListItem = ({
   className,
   children,
   ...liProps
-}: ProcessListItemProps & JSX.IntrinsicElements['li']): React.ReactElement => {
+}: ProcessListItemProps & JSX.IntrinsicElements['li']): JSX.Element => {
   const liClasses = classnames('usa-process-list__item', className)
   return (
     <li className={liClasses} {...liProps}>

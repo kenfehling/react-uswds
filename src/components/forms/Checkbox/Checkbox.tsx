@@ -25,7 +25,7 @@ export const Checkbox = ({
   tile,
   labelDescription,
   ...inputProps
-}: CheckboxProps & JSX.IntrinsicElements['input']): React.ReactElement => {
+}: CheckboxProps & JSX.IntrinsicElements['input']): JSX.Element => {
   const classes = classnames('usa-checkbox', className)
   const checkboxClasses = classnames('usa-checkbox__input', {
     'usa-checkbox__input--tile': tile,

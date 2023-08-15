@@ -10,7 +10,7 @@ export const IdentifierLogo = ({
   children,
   className,
   ...anchorProps
-}: IdentifierLogoProps & JSX.IntrinsicElements['a']): React.ReactElement => {
+}: IdentifierLogoProps & JSX.IntrinsicElements['a']): JSX.Element => {
   const classes = classnames('usa-identifier__logo', className)
   return (
     <a className={classes} {...anchorProps}>

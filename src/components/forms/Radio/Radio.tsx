@@ -25,7 +25,7 @@ export const Radio = ({
   tile,
   labelDescription,
   ...inputProps
-}: RadioProps & JSX.IntrinsicElements['input']): React.ReactElement => {
+}: RadioProps & JSX.IntrinsicElements['input']): JSX.Element => {
   const classes = classnames('usa-radio', className)
   const radioClasses = classnames('usa-radio__input', {
     'usa-radio__input--tile': tile,

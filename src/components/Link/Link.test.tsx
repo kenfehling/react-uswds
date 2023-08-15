@@ -70,7 +70,7 @@ describe('Link component', () => {
       children,
       className,
       ...linkProps
-    }: CustomLinkProps): React.ReactElement => (
+    }: CustomLinkProps): JSX.Element => (
       <a href={to} className={className} {...linkProps}>
         {children}
       </a>

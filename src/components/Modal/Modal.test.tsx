@@ -27,7 +27,7 @@ jest.mock('./utils', () => {
 })
 
 const renderWithModalRoot = (
-  ui: React.ReactElement,
+  ui: JSX.Element,
   options: RenderOptions = {}
 ) => {
   const appContainer = document.createElement('div')
@@ -50,7 +50,7 @@ const ExampleModal = ({
   forceAction = false,
 }: {
   forceAction?: boolean
-}): React.ReactElement => {
+}): JSX.Element => {
   const modalRef = useRef<ModalRef>(null)
 
   return (
@@ -96,7 +96,7 @@ const ExampleModal = ({
   )
 }
 
-const ExampleModalWithFocusElement = (): React.ReactElement => {
+const ExampleModalWithFocusElement = (): JSX.Element => {
   const modalRef = useRef<ModalRef>(null)
 
   return (

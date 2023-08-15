@@ -39,7 +39,7 @@ type StorybookArguments = {
 
 export const completeDateRangePicker = (
   argTypes: StorybookArguments
-): React.ReactElement => (
+): JSX.Element => (
   <Form onSubmit={argTypes.onSubmit}>
     <DateRangePicker
       startDateLabel="Event start date"
@@ -62,7 +62,7 @@ export const completeDateRangePicker = (
 
 export const withDefaultValues = (
   argTypes: StorybookArguments
-): React.ReactElement => (
+): JSX.Element => (
   <Form onSubmit={argTypes.onSubmit}>
     <DateRangePicker
       startDateLabel="Event start date"
@@ -87,7 +87,7 @@ export const withDefaultValues = (
 
 export const withAllowableRanges = (
   argTypes: StorybookArguments
-): React.ReactElement => (
+): JSX.Element => (
   <Form onSubmit={argTypes.onSubmit}>
     <DateRangePicker
       startDateLabel="Event start date"

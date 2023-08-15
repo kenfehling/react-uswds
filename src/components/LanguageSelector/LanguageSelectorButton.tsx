@@ -16,7 +16,7 @@ export const LanguageSelectorButton = ({
   className,
   ...buttonProps
 }: LanguageSelectorButtonProps &
-  JSX.IntrinsicElements['button']): React.ReactElement => {
+  JSX.IntrinsicElements['button']): JSX.Element => {
   const classes = classnames('usa-button', 'usa-language__link', className)
   const buttonContents = labelAttr ? (
     <span lang={labelAttr}>{label}</span>

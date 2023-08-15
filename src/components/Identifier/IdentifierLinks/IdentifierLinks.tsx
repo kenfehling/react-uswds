@@ -16,7 +16,7 @@ export const IdentifierLinks = ({
   className,
   navProps,
   listProps,
-}: IdentifierLinksProps): React.ReactElement => {
+}: IdentifierLinksProps): JSX.Element => {
   const classes = classnames(
     'usa-identifier__section usa-identifier__section--required-links',
     className

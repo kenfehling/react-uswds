@@ -10,7 +10,7 @@ export const IdentifierLogos = ({
   children,
   className,
   ...divProps
-}: IdentifierLogosProps & JSX.IntrinsicElements['div']): React.ReactElement => {
+}: IdentifierLogosProps & JSX.IntrinsicElements['div']): JSX.Element => {
   const classes = classnames('usa-identifier__logos', className)
   return (
     <div data-testid="identifierLogos" className={classes} {...divProps}>

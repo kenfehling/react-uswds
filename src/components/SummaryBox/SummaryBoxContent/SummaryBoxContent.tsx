@@ -10,7 +10,7 @@ export const SummaryBoxContent = ({
   children,
   className,
   ...divProps
-}: SummaryBoxTextProps & JSX.IntrinsicElements['div']): React.ReactElement => {
+}: SummaryBoxTextProps & JSX.IntrinsicElements['div']): JSX.Element => {
   const classes = classnames('usa-summary-box__text', className)
   return (
     <div className={classes} {...divProps}>

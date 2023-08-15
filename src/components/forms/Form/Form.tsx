@@ -23,7 +23,7 @@ export const Form = ({
   large,
   search,
   ...formProps
-}: FormProps): React.ReactElement => {
+}: FormProps): JSX.Element => {
   const classes = classnames(
     {
       'usa-form': !search,

@@ -11,7 +11,7 @@ export const Breadcrumb = ({
   current = false,
   className,
   ...listItemProps
-}: BreadcrumbProps & JSX.IntrinsicElements['li']): React.ReactElement => {
+}: BreadcrumbProps & JSX.IntrinsicElements['li']): JSX.Element => {
   const classes = classnames(
     'usa-breadcrumb__list-item',
     {

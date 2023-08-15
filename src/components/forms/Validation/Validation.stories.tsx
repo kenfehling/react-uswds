@@ -38,7 +38,7 @@ const validate = (type: string, value: string): boolean => {
   }
 }
 
-export const Default = (): React.ReactElement => {
+export const Default = (): JSX.Element => {
   const [validations, setValidations] = useState({
     uppercase: false,
     numerical: false,

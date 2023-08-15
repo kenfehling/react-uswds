@@ -10,7 +10,7 @@ export const InputSuffix = ({
   className,
   children,
   ...divProps
-}: InputSuffixProps): React.ReactElement => {
+}: InputSuffixProps): JSX.Element => {
   const classes = classnames('usa-input-suffix', className)
 
   return (

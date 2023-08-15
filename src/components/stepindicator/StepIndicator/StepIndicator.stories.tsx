@@ -20,7 +20,7 @@ Updates users on their progress through a multi-step process.
   },
 }
 
-export const defaultStepIndicator = (): React.ReactElement => (
+export const defaultStepIndicator = (): JSX.Element => (
   <StepIndicator headingLevel="h4">
     <StepIndicatorStep label="Personal information" status="complete" />
     <StepIndicatorStep label="Household status" status="complete" />
@@ -30,7 +30,7 @@ export const defaultStepIndicator = (): React.ReactElement => (
   </StepIndicator>
 )
 
-export const noLabels = (): React.ReactElement => (
+export const noLabels = (): JSX.Element => (
   <StepIndicator showLabels={false} headingLevel="h4">
     <StepIndicatorStep label="Personal information" status="complete" />
     <StepIndicatorStep label="Household status" status="complete" />
@@ -40,7 +40,7 @@ export const noLabels = (): React.ReactElement => (
   </StepIndicator>
 )
 
-export const centered = (): React.ReactElement => (
+export const centered = (): JSX.Element => (
   <StepIndicator centered headingLevel="h4">
     <StepIndicatorStep label="Personal information" status="complete" />
     <StepIndicatorStep label="Household status" status="complete" />
@@ -50,7 +50,7 @@ export const centered = (): React.ReactElement => (
   </StepIndicator>
 )
 
-export const counters = (): React.ReactElement => (
+export const counters = (): JSX.Element => (
   <StepIndicator counters="default" headingLevel="h4">
     <StepIndicatorStep label="Personal information" status="complete" />
     <StepIndicatorStep label="Household status" status="complete" />
@@ -60,7 +60,7 @@ export const counters = (): React.ReactElement => (
   </StepIndicator>
 )
 
-export const smallCounters = (): React.ReactElement => (
+export const smallCounters = (): JSX.Element => (
   <StepIndicator counters="small" headingLevel="h4">
     <StepIndicatorStep label="Personal information" status="complete" />
     <StepIndicatorStep label="Household status" status="complete" />
@@ -70,7 +70,7 @@ export const smallCounters = (): React.ReactElement => (
   </StepIndicator>
 )
 
-export const differentHeadingLevel = (): React.ReactElement => (
+export const differentHeadingLevel = (): JSX.Element => (
   <StepIndicator headingLevel="h2">
     <StepIndicatorStep label="Personal information" status="complete" />
     <StepIndicatorStep label="Household status" status="complete" />

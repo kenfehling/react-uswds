@@ -33,7 +33,7 @@ export const Search = ({
   i18n,
   inputProps,
   ...formProps
-}: SearchInputProps & OptionalFormProps): React.ReactElement => {
+}: SearchInputProps & OptionalFormProps): JSX.Element => {
   const classes = classnames('usa-search', className)
 
   return (

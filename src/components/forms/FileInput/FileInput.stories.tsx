@@ -29,14 +29,14 @@ type StorybookArguments = {
   onDrop: React.DragEventHandler<Element>
 }
 
-export const singleFileInput = (): React.ReactElement => (
+export const singleFileInput = (): JSX.Element => (
   <FormGroup>
     <Label htmlFor="file-input-single">Input accepts a single file</Label>
     <FileInput id="file-input-single" name="file-input-single" />
   </FormGroup>
 )
 
-export const acceptTextAndPDF = (): React.ReactElement => (
+export const acceptTextAndPDF = (): JSX.Element => (
   <FormGroup>
     <Label htmlFor="file-input-specific">
       Input accepts only specific file types
@@ -54,7 +54,7 @@ export const acceptTextAndPDF = (): React.ReactElement => (
   </FormGroup>
 )
 
-export const acceptImages = (): React.ReactElement => (
+export const acceptImages = (): JSX.Element => (
   <FormGroup>
     <Label htmlFor="file-input-wildcard">Input accepts any kind of image</Label>
     <span className="usa-hint" id="file-input-wildcard-hint">
@@ -70,7 +70,7 @@ export const acceptImages = (): React.ReactElement => (
   </FormGroup>
 )
 
-export const multipleFilesInput = (): React.ReactElement => (
+export const multipleFilesInput = (): JSX.Element => (
   <FormGroup>
     <Label htmlFor="file-input-multiple">Input accepts multiple files</Label>
     <span className="usa-hint" id="file-input-multiple-hint">
@@ -85,7 +85,7 @@ export const multipleFilesInput = (): React.ReactElement => (
   </FormGroup>
 )
 
-export const withError = (): React.ReactElement => (
+export const withError = (): JSX.Element => (
   <div style={{ marginLeft: '1.25em' }}>
     <FormGroup error>
       <Label htmlFor="file-input-multiple" error>
@@ -106,7 +106,7 @@ export const withError = (): React.ReactElement => (
   </div>
 )
 
-export const disabled = (): React.ReactElement => (
+export const disabled = (): JSX.Element => (
   <FormGroup>
     <Label htmlFor="file-input-disabled">Input in a disabled state</Label>
     <FileInput id="file-input-disabled" name="file-input-disabled" disabled />
@@ -115,7 +115,7 @@ export const disabled = (): React.ReactElement => (
 
 export const withRefAndCustomHandlers = (
   argTypes: StorybookArguments
-): React.ReactElement => {
+): JSX.Element => {
   const [files, setFiles] = useState<FileList | null>(null)
   const fileInputRef = useRef<FileInputRef>(null)
 
@@ -159,7 +159,7 @@ export const withRefAndCustomHandlers = (
   )
 }
 
-export const customText = (): React.ReactElement => (
+export const customText = (): JSX.Element => (
   <FormGroup>
     <Label htmlFor="file-input-single">La entrada acepta un solo archivo</Label>
     <FileInput

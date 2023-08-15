@@ -21,7 +21,7 @@ export const ExtendedNav = ({
   className,
   onToggleMobileNav,
   ...navProps
-}: ExtendedNavProps & JSX.IntrinsicElements['nav']): React.ReactElement => {
+}: ExtendedNavProps & JSX.IntrinsicElements['nav']): JSX.Element => {
   const classes = classnames(
     'usa-nav',
     {

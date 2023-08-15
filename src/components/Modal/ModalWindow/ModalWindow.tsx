@@ -26,7 +26,7 @@ export const ModalWindowForwardRef: React.ForwardRefRenderFunction<
     ...divProps
   },
   ref
-): React.ReactElement => {
+): JSX.Element => {
   const classes = classnames(
     'usa-modal',
     {

@@ -10,7 +10,7 @@ export const Collection = ({
   className,
   condensed,
   ...ulProps
-}: CollectionProps & JSX.IntrinsicElements['ul']): React.ReactElement => {
+}: CollectionProps & JSX.IntrinsicElements['ul']): JSX.Element => {
   const classes = classnames(
     'usa-collection',
     { 'usa-collection--condensed': condensed },

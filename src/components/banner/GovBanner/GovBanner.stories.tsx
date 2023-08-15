@@ -17,11 +17,11 @@ Source: https://designsystem.digital.gov/components/banner/
   },
 }
 
-export const govBannerDefault = (): React.ReactElement => (
+export const govBannerDefault = (): JSX.Element => (
   <GovBanner aria-label="Official government website" />
 )
 
-export const govBannerEnglishDotGov = (): React.ReactElement => (
+export const govBannerEnglishDotGov = (): JSX.Element => (
   <GovBanner
     language="english"
     tld=".gov"
@@ -29,7 +29,7 @@ export const govBannerEnglishDotGov = (): React.ReactElement => (
   />
 )
 
-export const govBannerEnglishDotMil = (): React.ReactElement => (
+export const govBannerEnglishDotMil = (): JSX.Element => (
   <GovBanner
     language="english"
     tld=".mil"
@@ -37,7 +37,7 @@ export const govBannerEnglishDotMil = (): React.ReactElement => (
   />
 )
 
-export const govBannerSpanishDotGov = (): React.ReactElement => (
+export const govBannerSpanishDotGov = (): JSX.Element => (
   <GovBanner
     language="spanish"
     tld=".gov"
@@ -45,7 +45,7 @@ export const govBannerSpanishDotGov = (): React.ReactElement => (
   />
 )
 
-export const govBannerSpanishDotMil = (): React.ReactElement => (
+export const govBannerSpanishDotMil = (): JSX.Element => (
   <GovBanner
     language="spanish"
     tld=".mil"

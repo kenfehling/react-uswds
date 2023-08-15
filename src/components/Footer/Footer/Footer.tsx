@@ -23,7 +23,7 @@ export const Footer = ({
   primary,
   secondary,
   ...footerAttributes
-}: FooterProps & React.HTMLAttributes<HTMLElement>): React.ReactElement => {
+}: FooterProps & React.HTMLAttributes<HTMLElement>): JSX.Element => {
   const classes = classnames(
     'usa-footer',
     {

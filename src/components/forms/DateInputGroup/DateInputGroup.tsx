@@ -5,7 +5,7 @@ export const DateInputGroup = ({
   children,
   className,
   ...divAttributes
-}: JSX.IntrinsicElements['div']): React.ReactElement => {
+}: JSX.IntrinsicElements['div']): JSX.Element => {
   const classes = classnames('usa-memorable-date', className)
 
   return (

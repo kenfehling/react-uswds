@@ -11,7 +11,7 @@ export const CollectionMetaItemTag = ({
   tagStyle,
   ...props
 }: CollectionMetaItemTagProps &
-  JSX.IntrinsicElements['li']): React.ReactElement => {
+  JSX.IntrinsicElements['li']): JSX.Element => {
   const classes = classnames(
     'usa-collection__meta-item',
     'usa-tag',

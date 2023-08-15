@@ -224,7 +224,7 @@ const flagMediaOnRight = (
   </Card>
 )
 
-export const cardExamples = (): React.ReactElement => (
+export const cardExamples = (): JSX.Element => (
   <>
     <CardGroup>
       {[
@@ -241,7 +241,7 @@ export const cardExamples = (): React.ReactElement => (
   </>
 )
 
-export const cardTest = (): React.ReactElement => (
+export const cardTest = (): JSX.Element => (
   <CardGroup>
     <Card
       headerFirst

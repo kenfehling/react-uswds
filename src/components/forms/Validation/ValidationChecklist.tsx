@@ -11,7 +11,7 @@ export const ValidationChecklist = ({
   className,
   ...ulProps
 }: ValidationChecklistProps &
-  JSX.IntrinsicElements['ul']): React.ReactElement => {
+  JSX.IntrinsicElements['ul']): JSX.Element => {
   const classes = classnames(className, 'usa-checklist')
   return (
     <ul className={classes} data-testid="validationChecklist" {...ulProps}>

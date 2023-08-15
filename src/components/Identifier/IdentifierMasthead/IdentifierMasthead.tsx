@@ -11,7 +11,7 @@ export const IdentifierMasthead = ({
   children,
   ...sectionProps
 }: IdentifierMastheadProps &
-  JSX.IntrinsicElements['section']): React.ReactElement => {
+  JSX.IntrinsicElements['section']): JSX.Element => {
   const classes = classnames(
     'usa-identifier__section usa-identifier__section--masthead',
     className

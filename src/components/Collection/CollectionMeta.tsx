@@ -5,7 +5,7 @@ export const CollectionMeta = ({
   className,
   children,
   ...props
-}: JSX.IntrinsicElements['ul']): React.ReactElement => {
+}: JSX.IntrinsicElements['ul']): JSX.Element => {
   const classes = classnames('usa-collection__meta', className)
 
   return (

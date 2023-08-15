@@ -10,7 +10,7 @@ export const IconListIcon = ({
   className,
   children,
   ...divProps
-}: IconListIconProps & JSX.IntrinsicElements['div']): ReactElement => {
+}: IconListIconProps & JSX.IntrinsicElements['div']): JSX.Element => {
   const classes = classnames(className, 'usa-icon-list__icon')
 
   return (

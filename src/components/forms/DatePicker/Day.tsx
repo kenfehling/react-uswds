@@ -47,7 +47,7 @@ const DayForwardRef: React.ForwardRefRenderFunction<
     i18n = EN_US,
   },
   ref
-): React.ReactElement => {
+): JSX.Element => {
   const day = date.getDate()
   const month = date.getMonth()
   const year = date.getFullYear()

@@ -44,7 +44,7 @@ You can also use the provided ModalToggleButton and/or ModalOpenLink components,
   },
 }
 
-export const defaultModal = (): React.ReactElement => {
+export const defaultModal = (): JSX.Element => {
   const modalRef = useRef<ModalRef>(null)
 
   return (
@@ -86,7 +86,7 @@ export const defaultModal = (): React.ReactElement => {
   )
 }
 
-export const largeModal = (): React.ReactElement => {
+export const largeModal = (): JSX.Element => {
   const modalRef = useRef<ModalRef>(null)
 
   return (
@@ -127,7 +127,7 @@ export const largeModal = (): React.ReactElement => {
   )
 }
 
-export const forceActionModal = (): React.ReactElement => {
+export const forceActionModal = (): JSX.Element => {
   const modalRef = useRef<ModalRef>(null)
 
   return (
@@ -170,7 +170,7 @@ export const forceActionModal = (): React.ReactElement => {
   )
 }
 
-export const customFocusElementModal = (): React.ReactElement => {
+export const customFocusElementModal = (): JSX.Element => {
   const modalRef = useRef<ModalRef>(null)
 
   return (
@@ -214,7 +214,7 @@ export const customFocusElementModal = (): React.ReactElement => {
   )
 }
 
-export const initiallyOpenModal = (): React.ReactElement => {
+export const initiallyOpenModal = (): JSX.Element => {
   const modalRef = useRef<ModalRef>(null)
 
   return (

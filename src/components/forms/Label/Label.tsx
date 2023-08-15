@@ -18,7 +18,7 @@ export const Label = ({
   hint,
   srOnly,
   ...labelProps
-}: LabelProps & JSX.IntrinsicElements['label']): React.ReactElement => {
+}: LabelProps & JSX.IntrinsicElements['label']): JSX.Element => {
   const classes = classnames(
     {
       'usa-label': !srOnly,

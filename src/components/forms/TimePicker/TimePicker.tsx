@@ -43,7 +43,7 @@ export const TimePicker = ({
   step = DEFAULT_STEP,
   hint,
   className,
-}: TimePickerProps): React.ReactElement => {
+}: TimePickerProps): JSX.Element => {
   const classes = classnames('usa-time-picker', className)
 
   const parsedMinTime = parseTimeString(minTime) || DEFAULT_MIN_TIME_MINUTES

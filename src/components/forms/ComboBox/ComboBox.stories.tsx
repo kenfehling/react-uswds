@@ -27,7 +27,7 @@ const noop = (): void => {
   return
 }
 
-export const defaultComboBoxWithPropOptions = (): React.ReactElement => {
+export const defaultComboBoxWithPropOptions = (): JSX.Element => {
   const fruitList = Object.entries(fruits).map(([key, value]) => ({
     value: key,
     label: value,
@@ -45,7 +45,7 @@ export const defaultComboBoxWithPropOptions = (): React.ReactElement => {
   )
 }
 
-export const withDefaultValue = (): React.ReactElement => {
+export const withDefaultValue = (): JSX.Element => {
   const fruitList = Object.entries(fruits).map(([value, key]) => ({
     value: value,
     label: key,
@@ -64,7 +64,7 @@ export const withDefaultValue = (): React.ReactElement => {
   )
 }
 
-export const withLabel = (): React.ReactElement => {
+export const withLabel = (): JSX.Element => {
   const fruitList = Object.entries(fruits).map(([value, key]) => ({
     value: value,
     label: key,
@@ -84,7 +84,7 @@ export const withLabel = (): React.ReactElement => {
   )
 }
 
-export const disabled = (): React.ReactElement => {
+export const disabled = (): JSX.Element => {
   const fruitList = Object.entries(fruits).map(([value, key]) => ({
     value: value,
     label: key,
@@ -104,7 +104,7 @@ export const disabled = (): React.ReactElement => {
   )
 }
 
-export const withOtherFields = (): React.ReactElement => {
+export const withOtherFields = (): JSX.Element => {
   const fruitList = Object.entries(fruits).map(([value, key]) => ({
     value: value,
     label: key,
@@ -120,7 +120,7 @@ export const withOtherFields = (): React.ReactElement => {
   )
 }
 
-export const exposedRefMethods = (): React.ReactElement => {
+export const exposedRefMethods = (): JSX.Element => {
   const ref = useRef<ComboBoxRef>(null)
 
   const fruitList = Object.entries(fruits).map(([value, key]) => ({
@@ -152,7 +152,7 @@ export const exposedRefMethods = (): React.ReactElement => {
   )
 }
 
-export const customInputChangeHandler = (): React.ReactElement => {
+export const customInputChangeHandler = (): JSX.Element => {
   const fruitList = Object.entries(fruits).map(([value, key]) => ({
     value: value,
     label: key,

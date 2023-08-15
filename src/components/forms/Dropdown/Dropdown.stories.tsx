@@ -21,7 +21,7 @@ Source: https://designsystem.digital.gov/components/dropdown/
   },
 }
 
-export const defaultDropdown = (): React.ReactElement => (
+export const defaultDropdown = (): JSX.Element => (
   <Dropdown id="input-dropdown" name="input-dropdown">
     <option>- Select - </option>
     <option value="value1">Option A</option>
@@ -30,7 +30,7 @@ export const defaultDropdown = (): React.ReactElement => (
   </Dropdown>
 )
 
-export const withDefaultValue = (): React.ReactElement => (
+export const withDefaultValue = (): JSX.Element => (
   <Dropdown id="input-dropdown" name="input-dropdown" defaultValue="value2">
     <option>- Select - </option>
     <option value="value1">Option A</option>
@@ -39,7 +39,7 @@ export const withDefaultValue = (): React.ReactElement => (
   </Dropdown>
 )
 
-export const withLabel = (): React.ReactElement => (
+export const withLabel = (): JSX.Element => (
   <>
     <Label htmlFor="options">Dropdown label</Label>
     <Dropdown id="input-dropdown" name="input-dropdown">
@@ -51,7 +51,7 @@ export const withLabel = (): React.ReactElement => (
   </>
 )
 
-export const disabled = (): React.ReactElement => (
+export const disabled = (): JSX.Element => (
   <Dropdown id="input-dropdown" name="input-dropdown" disabled>
     <option>- Select - </option>
     <option value="value1">Option A</option>

@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { ModalRef } from './Modal'
 import { ButtonProps, Button } from '../Button/Button'
 
@@ -17,7 +16,7 @@ export const ModalToggleButton = ({
   ...props
 }: ModalToggleButtonProps &
   Omit<ButtonProps, 'type'> &
-  JSX.IntrinsicElements['button']): React.ReactElement<HTMLButtonElement> => {
+  JSX.IntrinsicElements['button']): JSX.Element => {
   const handleClick: React.MouseEventHandler<HTMLButtonElement> = (e) => {
     if (!modalRef || !modalRef.current) {
       console.error('ModalRef is required')

@@ -12,7 +12,7 @@ export const ValidationItem = ({
   className,
   isValid,
   ...liProps
-}: ValidationItemProps & JSX.IntrinsicElements['li']): React.ReactElement => {
+}: ValidationItemProps & JSX.IntrinsicElements['li']): JSX.Element => {
   const classes = classnames(
     'usa-checklist__item',
     { 'usa-checklist__item--checked': isValid },

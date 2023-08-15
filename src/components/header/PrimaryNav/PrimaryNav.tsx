@@ -19,7 +19,7 @@ export const PrimaryNav = ({
   children,
   className,
   ...navProps
-}: PrimaryNavProps & JSX.IntrinsicElements['nav']): React.ReactElement => {
+}: PrimaryNavProps & JSX.IntrinsicElements['nav']): JSX.Element => {
   const classes = classnames(
     'usa-nav',
     {

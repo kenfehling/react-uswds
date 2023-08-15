@@ -218,27 +218,27 @@ const scrollableTestContent = (
   </>
 )
 
-export const bordered = (): React.ReactElement => (
+export const bordered = (): JSX.Element => (
   <Table bordered>{testContent}</Table>
 )
 
-export const borderless = (): React.ReactElement => (
+export const borderless = (): JSX.Element => (
   <Table bordered={false}>{testContent}</Table>
 )
 
-export const borderedWithCaption = (): React.ReactElement => (
+export const borderedWithCaption = (): JSX.Element => (
   <Table bordered caption="This is a bordered table with a caption">
     {testContent}
   </Table>
 )
 
-export const borderlessWithCaption = (): React.ReactElement => (
+export const borderlessWithCaption = (): JSX.Element => (
   <Table bordered={false} caption="This is a borderless table with a caption">
     {testContent}
   </Table>
 )
 
-export const contentWidth = (): React.ReactElement => (
+export const contentWidth = (): JSX.Element => (
   <Table bordered caption="This table demonstrates the default layout (width)">
     <thead>
       <tr>
@@ -267,7 +267,7 @@ export const contentWidth = (): React.ReactElement => (
   </Table>
 )
 
-export const fullWidth = (): React.ReactElement => (
+export const fullWidth = (): JSX.Element => (
   <Table
     bordered
     caption="This table uses the fullWidth prop to increase to 100% width"
@@ -299,7 +299,7 @@ export const fullWidth = (): React.ReactElement => (
   </Table>
 )
 
-export const fixed = (): React.ReactElement => (
+export const fixed = (): JSX.Element => (
   <Table
     bordered
     caption="This table uses the fixed prop to force equal width columns"
@@ -332,7 +332,7 @@ export const fixed = (): React.ReactElement => (
   </Table>
 )
 
-export const scrollable = (): React.ReactElement => (
+export const scrollable = (): JSX.Element => (
   <>
     <Table scrollable bordered striped caption="This is a scrollable table">
       {scrollableTestContent}
@@ -341,13 +341,13 @@ export const scrollable = (): React.ReactElement => (
   </>
 )
 
-export const striped = (argTypes: StorybookArguments): React.ReactElement => (
+export const striped = (argTypes: StorybookArguments): JSX.Element => (
   <Table striped bordered={argTypes.bordered} caption="This is a striped table">
     {testContent}
   </Table>
 )
 
-export const compact = (argTypes: StorybookArguments): React.ReactElement => (
+export const compact = (argTypes: StorybookArguments): JSX.Element => (
   <Table
     compact
     bordered={argTypes.bordered}
@@ -359,7 +359,7 @@ export const compact = (argTypes: StorybookArguments): React.ReactElement => (
 
 export const stackedStylesDemo = (
   argTypes: StorybookArguments
-): React.ReactElement => (
+): JSX.Element => (
   <Table
     bordered={argTypes.bordered}
     stackedStyle={argTypes.stackedStyle}

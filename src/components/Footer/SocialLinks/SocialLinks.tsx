@@ -14,7 +14,7 @@ type SocialLinkProps = {
 export const SocialLinks = ({
   className,
   links,
-}: SocialLinksProps & JSX.IntrinsicElements['div']): React.ReactElement => {
+}: SocialLinksProps & JSX.IntrinsicElements['div']): JSX.Element => {
   const classes = classnames(
     'usa-footer__social-links grid-row grid-gap-1',
     className
@@ -33,8 +33,8 @@ export const SocialLinks = ({
 export const SocialLink = ({
   name,
   ...props
-}: SocialLinkProps & JSX.IntrinsicElements['a']): React.ReactElement => {
-  let icon: Icon
+}: SocialLinkProps & JSX.IntrinsicElements['a']): JSX.Element => {
+  let icon: React.ReactNode
   switch (name) {
     case 'Facebook':
       icon = <Icon.Facebook className="usa-social-link__icon" name={name} />

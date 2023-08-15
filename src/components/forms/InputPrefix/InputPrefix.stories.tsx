@@ -21,7 +21,7 @@ Source: https://designsystem.digital.gov/components/input-prefix-suffix/
   },
 }
 
-export const InputWithTextInputPrefix = (): React.ReactElement => (
+export const InputWithTextInputPrefix = (): JSX.Element => (
   <FormGroup>
     <InputGroup>
       <InputPrefix>cvc</InputPrefix>
@@ -30,7 +30,7 @@ export const InputWithTextInputPrefix = (): React.ReactElement => (
   </FormGroup>
 )
 
-export const InputWithTextInputPrefixError = (): React.ReactElement => (
+export const InputWithTextInputPrefixError = (): JSX.Element => (
   <FormGroup>
     <InputGroup error>
       <InputPrefix>cvc</InputPrefix>
@@ -39,7 +39,7 @@ export const InputWithTextInputPrefixError = (): React.ReactElement => (
   </FormGroup>
 )
 
-export const InputWithIconInputPrefix = (): React.ReactElement => (
+export const InputWithIconInputPrefix = (): JSX.Element => (
   <FormGroup>
     <InputGroup>
       <InputPrefix>

@@ -12,7 +12,7 @@ export const ButtonGroup = ({
   children,
   type = 'default',
   ...restProps
-}: ButtonGroupProps): React.ReactElement => {
+}: ButtonGroupProps): JSX.Element => {
   const classes = classnames(
     'usa-button-group',
     {

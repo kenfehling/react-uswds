@@ -19,7 +19,7 @@ export const SearchButton = ({
   size,
   className,
   i18n,
-}: SearchButtonProps): React.ReactElement => {
+}: SearchButtonProps): JSX.Element => {
   const buttonText = i18n?.buttonText || 'Search'
   const isSmall = size === 'small'
   const isBig = size === 'big'

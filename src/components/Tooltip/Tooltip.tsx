@@ -1,7 +1,6 @@
 import React, {
   createElement,
   ForwardRefExoticComponent,
-  ReactElement,
   ReactNode,
   useEffect,
   useRef,
@@ -35,11 +34,11 @@ export function isCustomProps<T>(
 
 const TRIANGLE_SIZE = 5
 
-export function Tooltip(props: DefaultTooltipProps): ReactElement
-export function Tooltip<T>(props: CustomTooltipProps<T>): ReactElement
+export function Tooltip(props: DefaultTooltipProps): JSX.Element
+export function Tooltip<T>(props: CustomTooltipProps<T>): JSX.Element
 export function Tooltip<FCProps = DefaultTooltipProps>(
   props: DefaultTooltipProps | CustomTooltipProps<FCProps>
-): ReactElement {
+): JSX.Element {
   const triggerElementRef = useRef<HTMLElement & HTMLButtonElement>(null)
   const tooltipBodyRef = useRef<HTMLElement>(null)
   const tooltipID = useRef(

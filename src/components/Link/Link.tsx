@@ -51,11 +51,11 @@ function linkClasses<T>(
       )
 }
 
-export function Link(props: DefaultLinkProps): React.ReactElement
-export function Link<T>(props: CustomLinkProps<T>): React.ReactElement
+export function Link(props: DefaultLinkProps): JSX.Element
+export function Link<T>(props: CustomLinkProps<T>): JSX.Element
 export function Link<FCProps = DefaultLinkProps>(
   props: DefaultLinkProps | CustomLinkProps<FCProps>
-): React.ReactElement {
+): JSX.Element {
   if (isCustomProps(props)) {
     const { variant, className, asCustom, children, ...remainingProps } = props
     // 1. We know props is AsCustomProps<FCProps>

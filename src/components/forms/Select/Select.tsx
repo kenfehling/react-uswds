@@ -24,7 +24,7 @@ export const Select = ({
   children,
   validationStatus,
   ...inputProps
-}: SelectProps & JSX.IntrinsicElements['select']): React.ReactElement => {
+}: SelectProps & JSX.IntrinsicElements['select']): JSX.Element => {
   const isError = validationStatus === 'error'
   const isSuccess = validationStatus === 'success'
   const classes = classnames(

@@ -18,7 +18,7 @@ type DateRangePickerProps = {
 
 export const DateRangePicker = (
   props: DateRangePickerProps & JSX.IntrinsicElements['div']
-): React.ReactElement => {
+): JSX.Element => {
   const {
     startDateLabel,
     startDateHint,

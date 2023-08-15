@@ -26,7 +26,7 @@ export const Button = ({
   onClick,
   className,
   ...defaultProps
-}: ButtonProps & JSX.IntrinsicElements['button']): React.ReactElement => {
+}: ButtonProps & JSX.IntrinsicElements['button']): JSX.Element => {
   const classes = classnames(
     'usa-button',
     {

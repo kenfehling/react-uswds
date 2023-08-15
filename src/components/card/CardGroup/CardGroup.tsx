@@ -5,7 +5,7 @@ export const CardGroup = ({
   children,
   className,
   ...ulProps
-}: JSX.IntrinsicElements['ul']): React.ReactElement => {
+}: JSX.IntrinsicElements['ul']): JSX.Element => {
   const classes = classnames('usa-card-group', className)
 
   return (

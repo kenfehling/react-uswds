@@ -125,7 +125,7 @@ const testIdentifierGovContentSpanish = (
   </>
 )
 
-export const identifierDefault = (): React.ReactElement => (
+export const identifierDefault = (): JSX.Element => (
   <Identifier>
     <IdentifierMasthead aria-label="Agency identifier">
       <IdentifierLogos>
@@ -145,7 +145,7 @@ export const identifierDefault = (): React.ReactElement => (
   </Identifier>
 )
 
-export const identifierSpanish = (): React.ReactElement => (
+export const identifierSpanish = (): JSX.Element => (
   <Identifier>
     <IdentifierMasthead aria-label="Identificador de la agencia">
       <IdentifierLogos>
@@ -165,7 +165,7 @@ export const identifierSpanish = (): React.ReactElement => (
   </Identifier>
 )
 
-export const multipleParentsAndLogos = (): React.ReactElement => (
+export const multipleParentsAndLogos = (): JSX.Element => (
   <Identifier>
     <IdentifierMasthead aria-label="Agency identifier">
       <IdentifierLogos>
@@ -188,7 +188,7 @@ export const multipleParentsAndLogos = (): React.ReactElement => (
   </Identifier>
 )
 
-export const multipleParentsAndLogosSpanish = (): React.ReactElement => (
+export const multipleParentsAndLogosSpanish = (): JSX.Element => (
   <Identifier>
     <IdentifierMasthead aria-label="Identificador de la agencia">
       <IdentifierLogos>
@@ -209,7 +209,7 @@ export const multipleParentsAndLogosSpanish = (): React.ReactElement => (
   </Identifier>
 )
 
-export const moreThanTwoParentsAndLogos = (): React.ReactElement => (
+export const moreThanTwoParentsAndLogos = (): JSX.Element => (
   <Identifier>
     <IdentifierMasthead aria-label="Agency identifier">
       <IdentifierLogos>
@@ -235,7 +235,7 @@ export const moreThanTwoParentsAndLogos = (): React.ReactElement => (
   </Identifier>
 )
 
-export const noLogosEnglish = (): React.ReactElement => (
+export const noLogosEnglish = (): JSX.Element => (
   <Identifier>
     <IdentifierMasthead aria-label="Agency identifier">
       <IdentifierIdentity domain="domain.edu.mil.gov">
@@ -252,7 +252,7 @@ export const noLogosEnglish = (): React.ReactElement => (
   </Identifier>
 )
 
-export const noLogosSpanish = (): React.ReactElement => (
+export const noLogosSpanish = (): JSX.Element => (
   <Identifier>
     <IdentifierMasthead aria-label="Identificador de la agencia">
       <IdentifierIdentity domain="domain.edu.mil.gov">
@@ -269,7 +269,7 @@ export const noLogosSpanish = (): React.ReactElement => (
   </Identifier>
 )
 
-export const taxDisclaimerEnglish = (): React.ReactElement => (
+export const taxDisclaimerEnglish = (): JSX.Element => (
   <Identifier>
     <IdentifierMasthead aria-label="Agency identifier">
       <IdentifierLogos>
@@ -290,7 +290,7 @@ export const taxDisclaimerEnglish = (): React.ReactElement => (
   </Identifier>
 )
 
-export const taxDisclaimerSpanish = (): React.ReactElement => (
+export const taxDisclaimerSpanish = (): JSX.Element => (
   <Identifier>
     <IdentifierMasthead aria-label="Identificador de la agencia">
       <IdentifierLogos>
@@ -312,7 +312,7 @@ export const taxDisclaimerSpanish = (): React.ReactElement => (
 )
 
 export const taxDisclaimerAndMultipleParentsAndLogos =
-  (): React.ReactElement => (
+  (): JSX.Element => (
     <Identifier>
       <IdentifierMasthead aria-label="Agency identifier">
         <IdentifierLogos>

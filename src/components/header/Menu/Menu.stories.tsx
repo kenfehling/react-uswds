@@ -26,6 +26,6 @@ const testItems = [
   </a>,
 ]
 
-export const defaultDropDownMenu = (): React.ReactElement => (
+export const defaultDropDownMenu = (): JSX.Element => (
   <Menu items={testItems} isOpen={true} />
 )

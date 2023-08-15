@@ -11,7 +11,7 @@ export const IdentifierLinkItem = ({
   className,
   ...listItemProps
 }: IdentifierLinkItemProps &
-  JSX.IntrinsicElements['li']): React.ReactElement => {
+  JSX.IntrinsicElements['li']): JSX.Element => {
   const classes = classnames('usa-identifier__required-links-item', className)
   return (
     <li className={classes} {...listItemProps}>

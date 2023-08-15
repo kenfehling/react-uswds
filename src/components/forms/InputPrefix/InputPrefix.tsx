@@ -10,7 +10,7 @@ export const InputPrefix = ({
   className,
   children,
   ...divProps
-}: InputPrefixProps): React.ReactElement => {
+}: InputPrefixProps): JSX.Element => {
   const classes = classnames('usa-input-prefix', className)
 
   return (

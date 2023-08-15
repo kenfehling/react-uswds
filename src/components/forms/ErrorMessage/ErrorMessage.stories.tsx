@@ -17,6 +17,6 @@ Source: https://designsystem.digital.gov/components/form-controls/
   },
 }
 
-export const defaultErrorMessage = (): React.ReactElement => (
+export const defaultErrorMessage = (): JSX.Element => (
   <ErrorMessage>Helpful error message</ErrorMessage>
 )

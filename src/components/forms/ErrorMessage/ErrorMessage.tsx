@@ -11,7 +11,7 @@ export const ErrorMessage = ({
   children,
   className,
   id,
-}: ErrorMessageProps): React.ReactElement => {
+}: ErrorMessageProps): JSX.Element => {
   const classes = classnames('usa-error-message', className)
 
   return (

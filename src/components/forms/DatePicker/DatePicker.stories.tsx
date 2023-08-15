@@ -58,7 +58,7 @@ type StorybookArguments = {
 
 export const completeDatePicker = (
   argTypes: StorybookArguments
-): React.ReactElement => (
+): JSX.Element => (
   <Form onSubmit={argTypes.onSubmit}>
     <FormGroup error={argTypes.validationStatus === 'error'}>
       <Label
@@ -84,19 +84,19 @@ export const completeDatePicker = (
   </Form>
 )
 
-export const defaultDatePicker = (): React.ReactElement => (
+export const defaultDatePicker = (): JSX.Element => (
   <DatePicker id="birthdate" name="birthdate" />
 )
 
-export const disabled = (): React.ReactElement => (
+export const disabled = (): JSX.Element => (
   <DatePicker id="birthdate" name="birthdate" disabled />
 )
 
-export const withDefaultValue = (): React.ReactElement => (
+export const withDefaultValue = (): JSX.Element => (
   <DatePicker id="birthdate" name="birthdate" defaultValue="1988-05-16" />
 )
 
-const withDefaultInvalidValue = (): React.ReactElement => (
+const withDefaultInvalidValue = (): JSX.Element => (
   <DatePicker
     id="birthdate"
     name="birthdate"
@@ -111,7 +111,7 @@ withDefaultValue.parameters = {
 }
 export { withDefaultInvalidValue }
 
-export const withMinMaxInSameMonth = (): React.ReactElement => (
+export const withMinMaxInSameMonth = (): JSX.Element => (
   <DatePicker
     id="birthdate"
     name="birthdate"
@@ -120,7 +120,7 @@ export const withMinMaxInSameMonth = (): React.ReactElement => (
   />
 )
 
-export const withMinMax = (): React.ReactElement => (
+export const withMinMax = (): JSX.Element => (
   <DatePicker
     id="birthdate"
     name="birthdate"
@@ -129,7 +129,7 @@ export const withMinMax = (): React.ReactElement => (
   />
 )
 
-const withRangeDate = (): React.ReactElement => (
+const withRangeDate = (): JSX.Element => (
   <DatePicker
     id="birthdate"
     name="birthdate"
@@ -144,6 +144,6 @@ withRangeDate.parameters = {
 }
 export { withRangeDate }
 
-export const withLocalizations = (): React.ReactElement => (
+export const withLocalizations = (): JSX.Element => (
   <DatePicker id="birthdate" name="birthdate" i18n={sampleLocalization} />
 )

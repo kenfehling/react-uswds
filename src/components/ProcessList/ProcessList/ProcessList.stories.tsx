@@ -20,7 +20,7 @@ Source: https://designsystem.digital.gov/components/process-list
   },
 }
 
-export const processListDefault = (): React.ReactElement => (
+export const processListDefault = (): JSX.Element => (
   <ProcessList>
     <ProcessListItem>
       <ProcessListHeading type="h4">Start a process</ProcessListHeading>
@@ -66,7 +66,7 @@ export const processListDefault = (): React.ReactElement => (
   </ProcessList>
 )
 
-export const processListNoTextCustomSizing = (): React.ReactElement => (
+export const processListNoTextCustomSizing = (): JSX.Element => (
   <ProcessList>
     <ProcessListItem className="padding-bottom-4">
       <ProcessListHeading type="p" className="font-sans-xl line-height-sans-1">
@@ -86,7 +86,7 @@ export const processListNoTextCustomSizing = (): React.ReactElement => (
   </ProcessList>
 )
 
-export const processListCustomSizing = (): React.ReactElement => (
+export const processListCustomSizing = (): JSX.Element => (
   <ProcessList>
     <ProcessListItem className="padding-bottom-4">
       <ProcessListHeading type="h4" className="font-sans-xl line-height-sans-1">

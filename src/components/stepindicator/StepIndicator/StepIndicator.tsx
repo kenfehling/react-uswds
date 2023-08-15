@@ -1,13 +1,12 @@
 import React from 'react'
 import classnames from 'classnames'
-import { StepIndicatorStepProps } from '../StepIndicatorStep/StepIndicatorStep'
 import { HeadingLevel } from '../../../types/headingLevel'
 
 type StepIndicatorProps = {
   showLabels?: boolean
   counters?: 'none' | 'default' | 'small'
   centered?: boolean
-  children: React.ReactElement<StepIndicatorStepProps>[]
+  children: JSX.Element[]
   className?: string
   divProps?: JSX.IntrinsicElements['div']
   listProps?: JSX.IntrinsicElements['ol']
@@ -19,7 +18,7 @@ type StepIndicatorProps = {
 }
 export const StepIndicator = (
   props: StepIndicatorProps
-): React.ReactElement => {
+): JSX.Element => {
   const {
     showLabels = true,
     counters = 'none',

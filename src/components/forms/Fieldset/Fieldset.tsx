@@ -14,7 +14,7 @@ export const Fieldset = ({
   className,
   legendStyle = 'default',
   ...fieldsetProps
-}: FieldsetProps & JSX.IntrinsicElements['fieldset']): React.ReactElement => {
+}: FieldsetProps & JSX.IntrinsicElements['fieldset']): JSX.Element => {
   const classes = classnames('usa-fieldset', className)
 
   const legendClasses = classnames({

@@ -15,7 +15,7 @@ export const Header = ({
   children,
   className,
   ...headerProps
-}: HeaderProps & JSX.IntrinsicElements['header']): React.ReactElement => {
+}: HeaderProps & JSX.IntrinsicElements['header']): JSX.Element => {
   const classes = classnames(
     'usa-header',
     {

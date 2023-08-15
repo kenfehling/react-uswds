@@ -100,15 +100,15 @@ const testItems: AccordionItemProps[] = [
   },
 ]
 
-export const borderless = (): React.ReactElement => (
+export const borderless = (): JSX.Element => (
   <Accordion bordered={false} items={testItems} />
 )
 
-export const bordered = (): React.ReactElement => (
+export const bordered = (): JSX.Element => (
   <Accordion bordered={true} items={testItems} />
 )
 
-export const multiselectable = (): React.ReactElement => (
+export const multiselectable = (): JSX.Element => (
   <Accordion items={testItems} multiselectable={true} />
 )
 
@@ -166,6 +166,6 @@ const customTestItems: AccordionItemProps[] = [
   },
 ]
 
-export const customTitles = (): React.ReactElement => (
+export const customTitles = (): JSX.Element => (
   <Accordion bordered={true} items={customTestItems} />
 )

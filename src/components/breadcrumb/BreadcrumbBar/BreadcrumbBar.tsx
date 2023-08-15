@@ -16,7 +16,7 @@ export const BreadcrumbBar = ({
   className,
   navProps,
   listProps,
-}: BreadcrumbBarProps): React.ReactElement => {
+}: BreadcrumbBarProps): JSX.Element => {
   const classes = classnames(
     'usa-breadcrumb',
     {

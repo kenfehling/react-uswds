@@ -34,7 +34,7 @@ const noop = (): void => {
 
 export const completeTimePicker = (
   argTypes: StorybookArguments
-): React.ReactElement => (
+): JSX.Element => (
   <Form onSubmit={argTypes.onSubmit}>
     <TimePicker
       id="appointment-time"
@@ -49,7 +49,7 @@ export const completeTimePicker = (
 
 export const defaultTimePicker = (
   argTypes: StorybookArguments
-): React.ReactElement => (
+): JSX.Element => (
   <Form onSubmit={argTypes.onSubmit}>
     <TimePicker
       id="appointment-time"
@@ -62,7 +62,7 @@ export const defaultTimePicker = (
 
 export const withMinAndMaxTimes = (
   argTypes: StorybookArguments
-): React.ReactElement => (
+): JSX.Element => (
   <Form onSubmit={argTypes.onSubmit}>
     <TimePicker
       id="appointment-time"
@@ -79,7 +79,7 @@ export const withMinAndMaxTimes = (
 
 export const withDefaultValue = (
   argTypes: StorybookArguments
-): React.ReactElement => (
+): JSX.Element => (
   <Form onSubmit={argTypes.onSubmit}>
     <TimePicker
       id="appointment-time"

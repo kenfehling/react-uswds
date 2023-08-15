@@ -35,7 +35,7 @@ Source: http://designsystem.digital.gov/components/modal
 
 export const defaultModal = (
   argTypes: StorybookArguments
-): React.ReactElement => {
+): JSX.Element => {
   return (
     <ModalWrapper
       role="dialog"
@@ -78,7 +78,7 @@ export const defaultModal = (
 
 export const largeModal = (
   argTypes: StorybookArguments
-): React.ReactElement => {
+): JSX.Element => {
   return (
     <ModalWrapper
       role="dialog"
@@ -122,7 +122,7 @@ export const largeModal = (
 
 export const forceActionModal = (
   argTypes: StorybookArguments
-): React.ReactElement => {
+): JSX.Element => {
   return (
     <ModalWrapper
       role="dialog"

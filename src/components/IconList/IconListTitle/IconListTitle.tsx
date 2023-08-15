@@ -29,7 +29,7 @@ export const IconListTitle = ({
   type,
   children,
   className,
-}: IconListParagraphTitleProps | IconListHeadingTitleProps): ReactElement => {
+}: IconListParagraphTitleProps | IconListHeadingTitleProps): JSX.Element => {
   const classes = classnames(className, 'usa-icon-list__title')
   const Tag = type
   return (

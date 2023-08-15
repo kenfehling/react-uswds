@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from 'react'
+import React, { useState } from 'react'
 import { Icon } from '../Icon/Icons'
 import {
   Banner,
@@ -15,7 +15,7 @@ import flagImg from '@uswds/uswds/src/img/us_flag_small.png'
 import dotGovIcon from '@uswds/uswds/src/img/icon-dot-gov.svg'
 import httpsIcon from '@uswds/uswds/src/img/icon-https.svg'
 
-const CustomBanner = (): ReactElement => {
+const CustomBanner = (): JSX.Element => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -83,4 +83,4 @@ Source: https://designsystem.digital.gov/components/banner/
   },
 }
 
-export const customBanner = (): React.ReactElement => <CustomBanner />
+export const customBanner = (): JSX.Element => <CustomBanner />

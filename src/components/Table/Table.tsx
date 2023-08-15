@@ -27,7 +27,7 @@ export const Table = ({
   striped,
   compact,
   stackedStyle = 'none',
-}: TableProps): React.ReactElement => {
+}: TableProps): JSX.Element => {
   const classes = classnames(
     'usa-table',
     {

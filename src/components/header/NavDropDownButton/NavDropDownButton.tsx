@@ -21,7 +21,7 @@ export const NavDropDownButton = ({
   className,
   ...buttonProps
 }: NavDropDownButtonProps &
-  JSX.IntrinsicElements['button']): React.ReactElement => {
+  JSX.IntrinsicElements['button']): JSX.Element => {
   const classes = classnames(
     'usa-accordion__button',
     'usa-nav__link',

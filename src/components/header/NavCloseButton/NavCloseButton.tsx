@@ -7,7 +7,7 @@ export const NavCloseButton = ({
   onClick,
   className,
   ...buttonProps
-}: JSX.IntrinsicElements['button']): React.ReactElement => {
+}: JSX.IntrinsicElements['button']): JSX.Element => {
   const classes = classnames('usa-nav__close', className)
 
   return (

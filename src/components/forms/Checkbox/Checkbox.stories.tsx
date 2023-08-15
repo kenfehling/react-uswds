@@ -17,19 +17,19 @@ Source: https://designsystem.digital.gov/components/checkbox
   },
 }
 
-export const defaultCheckbox = (): React.ReactElement => (
+export const defaultCheckbox = (): JSX.Element => (
   <Checkbox id="checkbox" name="checkbox" label="My Checkbox" />
 )
 
-export const checked = (): React.ReactElement => (
+export const checked = (): JSX.Element => (
   <Checkbox id="checkbox" name="checkbox" label="My Checkbox" defaultChecked />
 )
 
-export const disabled = (): React.ReactElement => (
+export const disabled = (): JSX.Element => (
   <Checkbox id="checkbox" name="checkbox" label="My Checkbox" disabled />
 )
 
-export const withRichLabel = (): React.ReactElement => (
+export const withRichLabel = (): JSX.Element => (
   <Checkbox
     id="checkbox"
     name="checkbox"
@@ -37,7 +37,7 @@ export const withRichLabel = (): React.ReactElement => (
   />
 )
 
-export const WithLabelDescription = (): React.ReactElement => (
+export const WithLabelDescription = (): JSX.Element => (
   <Checkbox
     id="checkbox"
     name="checkbox"
@@ -46,11 +46,11 @@ export const WithLabelDescription = (): React.ReactElement => (
   />
 )
 
-export const tile = (): React.ReactElement => (
+export const tile = (): JSX.Element => (
   <Checkbox id="checkbox" name="checkbox" label="My Checkbox" tile />
 )
 
-export const tileWithLabelDescription = (): React.ReactElement => (
+export const tileWithLabelDescription = (): JSX.Element => (
   <Checkbox
     id="checkbox"
     name="checkbox"

@@ -62,7 +62,7 @@ export const Calendar = ({
   setStatuses,
   focusMode,
   i18n = EN_US,
-}: CalendarProps): React.ReactElement => {
+}: CalendarProps): JSX.Element => {
   const prevYearEl = useRef<HTMLButtonElement>(null)
   const prevMonthEl = useRef<HTMLButtonElement>(null)
   const nextMonthEl = useRef<HTMLButtonElement>(null)

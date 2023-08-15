@@ -27,7 +27,7 @@ export const SearchField = ({
   label = 'Search',
   inputId = 'search-field',
   inputProps,
-}: SearchFieldProps & OptionalTextInputProps): React.ReactElement => {
+}: SearchFieldProps & OptionalTextInputProps): JSX.Element => {
   const classes = classnames(
     {
       'usa-search--big': isBig,

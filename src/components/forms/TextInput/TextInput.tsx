@@ -37,7 +37,7 @@ export const TextInput = ({
   inputSize,
   inputRef,
   ...inputProps
-}: TextInputProps): React.ReactElement => {
+}: TextInputProps): JSX.Element => {
   const isError = validationStatus === 'error'
   const isSuccess = validationStatus === 'success'
   const isSmall = inputSize === 'small'

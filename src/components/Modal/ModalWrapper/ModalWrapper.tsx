@@ -16,7 +16,7 @@ export const ModalWrapperForwardRef: React.ForwardRefRenderFunction<
 > = (
   { id, children, isVisible, forceAction, className, handleClose, ...divProps },
   ref
-): React.ReactElement => {
+): JSX.Element => {
   const classes = classnames(
     'usa-modal-wrapper',
     {

@@ -132,7 +132,7 @@ describe('Grid component', () => {
       children,
       className,
       ...sectionProps
-    }: CustomGridProps): React.ReactElement => (
+    }: CustomGridProps): JSX.Element => (
       <section role="grid" className={className} {...sectionProps}>
         {children}
       </section>

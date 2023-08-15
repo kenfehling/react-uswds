@@ -46,7 +46,7 @@ describe('GridContainer component', () => {
       children,
       className,
       ...ulProps
-    }: CustomGridContainerProps): React.ReactElement => (
+    }: CustomGridContainerProps): JSX.Element => (
       <ul className={className} {...ulProps}>
         {children}
       </ul>

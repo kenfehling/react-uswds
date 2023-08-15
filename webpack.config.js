@@ -37,9 +37,6 @@ module.exports = {
   ],
   resolve: {
     extensions: ['.tsx', '.ts', '.jsx', '.js'],
-    alias: {
-      uswds: path.resolve(__dirname, './node_modules/@uswds/uswds'),
-    },
   },
   module: {
     rules: [

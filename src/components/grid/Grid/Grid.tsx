@@ -82,11 +82,11 @@ export const applyGridClasses = (gridLayout: GridProps): string => {
   return classes
 }
 
-export function Grid(props: DefaultGridProps): React.ReactElement
-export function Grid<T>(props: CustomGridProps<T>): React.ReactElement
+export function Grid(props: DefaultGridProps): JSX.Element
+export function Grid<T>(props: CustomGridProps<T>): JSX.Element
 export function Grid<FCProps = DefaultGridProps>(
   props: DefaultGridProps | CustomGridProps<FCProps>
-): React.ReactElement {
+): JSX.Element {
   const {
     children,
     className,

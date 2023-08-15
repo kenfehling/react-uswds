@@ -52,7 +52,7 @@ export const ModalForwardRef: React.ForwardRefRenderFunction<
     ...divProps
   },
   ref
-): React.ReactElement => {
+): JSX.Element => {
   const { isOpen, toggleModal } = useModal(isInitiallyOpen)
   const [mounted, setMounted] = useState(false)
   const initialPaddingRef = useRef<string>()

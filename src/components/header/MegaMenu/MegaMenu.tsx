@@ -13,7 +13,7 @@ export const MegaMenu = ({
   isOpen,
   className,
   ...navListProps
-}: MegaMenuProps & NavListProps): React.ReactElement => {
+}: MegaMenuProps & NavListProps): JSX.Element => {
   const classes = classnames('usa-nav__submenu usa-megamenu', className)
 
   return (

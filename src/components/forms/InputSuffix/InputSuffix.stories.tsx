@@ -21,7 +21,7 @@ Source: https://designsystem.digital.gov/components/input-prefix-suffix/
   },
 }
 
-export const InputWithIconInputSuffix = (): React.ReactElement => (
+export const InputWithIconInputSuffix = (): JSX.Element => (
   <FormGroup>
     <InputGroup>
       <TextInput id="search" name="search" type="search" />
@@ -32,7 +32,7 @@ export const InputWithIconInputSuffix = (): React.ReactElement => (
   </FormGroup>
 )
 
-export const InputWithIconInputSuffixError = (): React.ReactElement => (
+export const InputWithIconInputSuffixError = (): JSX.Element => (
   <FormGroup>
     <InputGroup error>
       <TextInput
@@ -48,7 +48,7 @@ export const InputWithIconInputSuffixError = (): React.ReactElement => (
   </FormGroup>
 )
 
-export const InputWithTextInputSuffix = (): React.ReactElement => (
+export const InputWithTextInputSuffix = (): JSX.Element => (
   <FormGroup>
     <InputGroup>
       <TextInput id="weight" name="weight" type="text" />
